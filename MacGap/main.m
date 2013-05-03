@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Nitro
+//  MacGap
 //
-//  Created by Jono Cooper on 28/04/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Alex MacCaw on 08/01/2012.
+//  Copyright (c) 2012 Twitter. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
