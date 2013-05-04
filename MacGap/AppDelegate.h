@@ -7,15 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "INAppStoreWindow.h"
 #import "Classes/ContentView.h"
 
 #import "WindowController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet INAppStoreWindow *window;
-@property (nonatomic,retain) IBOutlet WebView *webView;
-@property (nonatomic, retain) IBOutlet NSView *titleView;
+@property (retain, nonatomic) WindowController *windowController;
 
 @end

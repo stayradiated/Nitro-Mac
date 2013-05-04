@@ -10,6 +10,7 @@
 		1495814F15C15CCC00E1CFE5 /* Notice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495814E15C15CCC00E1CFE5 /* Notice.m */; };
 		88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 88746BED14CCA435001E160E /* JSEventHelper.m */; };
 		88C0646014BDE10A00E4BCE2 /* Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0645F14BDE10A00E4BCE2 /* Window.m */; };
+		88C0646614BDEC5800E4BCE2 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C0646414BDEC5800E4BCE2 /* Window.xib */; };
 		88C0646D14BDF6A600E4BCE2 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0646C14BDF6A600E4BCE2 /* WindowController.m */; };
 		FA32509D14BA813600BF0781 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA32509C14BA813600BF0781 /* WebKit.framework */; };
 		FA3250C314BA85E700BF0781 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3250BC14BA85E700BF0781 /* ContentView.m */; };
@@ -30,9 +31,8 @@
 		FAE451CF14BA79C600190544 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAE451CD14BA79C600190544 /* Credits.rtf */; };
 		FAE451D214BA79C600190544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE451D114BA79C600190544 /* AppDelegate.m */; };
 		FAE451D514BA79C600190544 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE451D314BA79C600190544 /* MainMenu.xib */; };
-		FBA91A171733D0610065A597 /* INAppStoreWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA91A111733D0600065A597 /* INAppStoreWindow.m */; };
-		FBA91A181733D0610065A597 /* INAppStoreWindow.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FBA91A121733D0600065A597 /* INAppStoreWindow.podspec */; };
-		FBA91A191733D0610065A597 /* INWindowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA91A141733D0600065A597 /* INWindowButton.m */; };
+		FB5A38091734C1F7001040E4 /* BorderlessKeywindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A38081734C1F7001040E4 /* BorderlessKeywindow.m */; };
+		FB5A380B1734CAF8001040E4 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = FB5A380A1734CAF8001040E4 /* Documents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +55,7 @@
 		88746BED14CCA435001E160E /* JSEventHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSEventHelper.m; path = Classes/JSEventHelper.m; sourceTree = "<group>"; };
 		88C0645E14BDE10A00E4BCE2 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Window.h; path = Classes/Window.h; sourceTree = "<group>"; };
 		88C0645F14BDE10A00E4BCE2 /* Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Window.m; path = Classes/Window.m; sourceTree = "<group>"; };
+		88C0646514BDEC5800E4BCE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Window.xib; sourceTree = "<group>"; };
 		88C0646B14BDF6A600E4BCE2 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		88C0646C14BDF6A600E4BCE2 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		FA32509C14BA813600BF0781 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -93,13 +94,9 @@
 		FAE451D014BA79C600190544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAE451D114BA79C600190544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FAE451D414BA79C600190544 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		FBA91A0E1733C7D40065A597 /* MacGap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MacGap.entitlements; sourceTree = "<group>"; };
-		FBA91A0F1733C8C30065A597 /* Nitro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Nitro.entitlements; sourceTree = "<group>"; };
-		FBA91A101733D0600065A597 /* INAppStoreWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAppStoreWindow.h; sourceTree = "<group>"; };
-		FBA91A111733D0600065A597 /* INAppStoreWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAppStoreWindow.m; sourceTree = "<group>"; };
-		FBA91A121733D0600065A597 /* INAppStoreWindow.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INAppStoreWindow.podspec; sourceTree = "<group>"; };
-		FBA91A131733D0600065A597 /* INWindowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INWindowButton.h; sourceTree = "<group>"; };
-		FBA91A141733D0600065A597 /* INWindowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INWindowButton.m; sourceTree = "<group>"; };
+		FB5A38071734C1F7001040E4 /* BorderlessKeywindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessKeywindow.h; sourceTree = "<group>"; };
+		FB5A38081734C1F7001040E4 /* BorderlessKeywindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessKeywindow.m; sourceTree = "<group>"; };
+		FB5A380A1734CAF8001040E4 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Documents; path = ../../../Documents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +156,6 @@
 		FAE451AF14BA79C600190544 = {
 			isa = PBXGroup;
 			children = (
-				FBA91A0F1733C8C30065A597 /* Nitro.entitlements */,
 				FA3F7741168F70780027B324 /* Cocoa.framework */,
 				FA3250E414BA883A00BF0781 /* public */,
 				FAE451C414BA79C600190544 /* MacGap */,
@@ -201,16 +197,14 @@
 		FAE451C414BA79C600190544 /* MacGap */ = {
 			isa = PBXGroup;
 			children = (
-				FBA91A101733D0600065A597 /* INAppStoreWindow.h */,
-				FBA91A111733D0600065A597 /* INAppStoreWindow.m */,
-				FBA91A121733D0600065A597 /* INAppStoreWindow.podspec */,
-				FBA91A131733D0600065A597 /* INWindowButton.h */,
-				FBA91A141733D0600065A597 /* INWindowButton.m */,
-				FBA91A0E1733C7D40065A597 /* MacGap.entitlements */,
 				FA3250E014BA87B800BF0781 /* Classes */,
 				FAE451D014BA79C600190544 /* AppDelegate.h */,
 				FAE451D114BA79C600190544 /* AppDelegate.m */,
 				FAE451D314BA79C600190544 /* MainMenu.xib */,
+				88C0646414BDEC5800E4BCE2 /* Window.xib */,
+				FB5A38071734C1F7001040E4 /* BorderlessKeywindow.h */,
+				FB5A380A1734CAF8001040E4 /* Documents */,
+				FB5A38081734C1F7001040E4 /* BorderlessKeywindow.m */,
 				FAE451C514BA79C600190544 /* Supporting Files */,
 			);
 			path = MacGap;
@@ -286,7 +280,8 @@
 				FAE451CF14BA79C600190544 /* Credits.rtf in Resources */,
 				FAE451D514BA79C600190544 /* MainMenu.xib in Resources */,
 				FA3250E714BA8BCE00BF0781 /* application.icns in Resources */,
-				FBA91A181733D0610065A597 /* INAppStoreWindow.podspec in Resources */,
+				88C0646614BDEC5800E4BCE2 /* Window.xib in Resources */,
+				FB5A380B1734CAF8001040E4 /* Documents in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +306,21 @@
 				88C0646D14BDF6A600E4BCE2 /* WindowController.m in Sources */,
 				88746BEE14CCA435001E160E /* JSEventHelper.m in Sources */,
 				1495814F15C15CCC00E1CFE5 /* Notice.m in Sources */,
-				FBA91A171733D0610065A597 /* INAppStoreWindow.m in Sources */,
-				FBA91A191733D0610065A597 /* INWindowButton.m in Sources */,
+				FB5A38091734C1F7001040E4 /* BorderlessKeywindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		88C0646414BDEC5800E4BCE2 /* Window.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C0646514BDEC5800E4BCE2 /* en */,
+			);
+			name = Window.xib;
+			sourceTree = "<group>";
+		};
 		FAE451C714BA79C600190544 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -352,7 +354,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -380,7 +381,6 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -400,8 +400,6 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Nitro.entitlements;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,7 +409,7 @@
 				GCC_PREFIX_HEADER = "MacGap/Nitro-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MacGap/Nitro-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Nitro;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -423,8 +421,6 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Nitro.entitlements;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +430,7 @@
 				GCC_PREFIX_HEADER = "MacGap/Nitro-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "MacGap/Nitro-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = Nitro;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
